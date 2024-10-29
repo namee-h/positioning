@@ -1,21 +1,21 @@
 .main {
     display: flex;
-    justify-content: center;
+    
 }
 
-.box {
+.box2 {
     width: 100px;
     height: 100px; 
-    background-color: purple;
+    background-color: black;
     color: white;
 }
 
-.box-big {
-    width: 200px;
-    height: 200px;
-    background-color: black;
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
     color: white;
-    position: relative
+    position: relative;
 }
 
 .box-position {
