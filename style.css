@@ -1,24 +1,25 @@
-.m-box {
-    border: 1px solid red;
-    width: 100%;
-    height: 100vh;
+.main {
     display: flex;
-    justify-content: space-between;
-
+    justify-content: center;
 }
 
-.s-box {
+.box {
     width: 100px;
-    height: 100px;
-    background-color: gray;
+    height: 100px; 
+    background-color: purple;
+    color: white;
 }
 
-.s-box-se {
-    position: relative;
-    top: 100px;
+.box-big {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    position: relative
 }
 
-.s-box-th {
-    position: relative;
-    top: 200px;
+.box-position {
+    position: absolute;
+    left: 50px;
+    top: 50px;
 }
