@@ -1,0 +1,23 @@
+.m-box {
+    border: 1px solid red;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+
+.s-box {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+}
+
+.s-box-th {
+    position: absolute;
+    right: 7px;
+}
+
+.s-box-se {
+    position: absolute;
+    right: 117px;
+}
